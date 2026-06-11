@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    font-family: "Nanum Myeongjo", serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #000000;
+    color: #ffff;
+    text-align: center;
+    line-height: 100px;
+    overflow: hidden;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+    color: #B6B89D;
+    
+}
+
+div{
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    color: #ffffff;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+main{
+    position: absolute;
+    align-items: center;
+    background-image: url('img/스토리.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150%;
+    width: 100%;
+}
+img{
+    border: #ffff solid 2px;
+}
+#storyep11{
+    position: absolute;
+    left: 50vw;
+    top : 2vw;
+    background-color: #00000046;
+    height: 325px;
+    
+}
+#storyep12{
+    position: absolute;
+    left: 50vw;
+    top : 27.752vw;
+    background-color: #00000046;
+    height: 325px;
+}

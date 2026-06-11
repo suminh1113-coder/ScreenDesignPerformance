@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    overflow: hidden;
+}
+header{
+    width: 100vw;
+    background: #000000;
+    color: #ffff;
+    text-align: center;
+    line-height: 100px;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+}
+fieldset{
+    margin: 10vw;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    font-family: "Nanum Myeongjo", serif;
+    overflow: auto;
+}
+header{
+    position: fixed;
+    left: 0;
+    top : 0;
+    z-index: 120;
+    /* z값 올려서 헤더 올림 */
+    width: 100%;
+    height: 100px;
+    background: #00000095;
+    color: #B6B89D;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+main{
+    position: absolute;
+    align-items: center;
+    background-color: #303930;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#charon1, #charon2{
+    border-radius: 10px;
+    left: 35px;
+    position: absolute;
+    top: 30px;
+    border: #000000 solid 2px;
+    margin: 10px;
+    background: #ffffffe1;
+}
+#charon2{
+    position: absolute;
+    left: 255px;
+}
+.nomal1{
+    border-radius: 10px;
+    margin-top: 20px;
+    position: fixed;
+    background-color: #00000046;
+    top:100px;
+    margin-left: 20px;
+    width: 940px;
+    height: 630px;
+}
+#tong1, #tong2{
+    position: fixed;
+    top: 590px;
+    margin-left: 120px;
+    color: #B6B89D;
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
+}
+#tong2{
+    position: fixed;
+    top: 590px;
+    margin-left: 340px;
+}
+.ex1{
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    line-height: 2;
+    color: #B6B89D;
+}
+.ex2{
+    position: absolute;
+    left : 650px;
+    line-height: 2;
+    color: #ffff;
+    top: 25px;
+}
+#ghost{
+    position: absolute;
+    left: 700px;
+    top: 35px;
+}
+#sign{
+    position: absolute;
+    top: 270px;
+    left: 500px;
+}
+#headdem{
+    position: absolute;
+    top: 80px;
+    left: 780px;
+}
+#UDIMO{
+    position: absolute;
+    top: 420px;
+    left: 530px;
+}
+.nomal2{
+    border-radius: 10px;
+    margin-top: 20px;
+    position: fixed;
+    background-color: #00000046;
+    top:100px;
+    margin-left: 1000px;
+    width: 510px;
+    height: 630px;
+}
+#ex3{
+    color: #B6B89D;
+    position: absolute;
+    left: 140px;
+}
+.magicer{
+    color: #B6B89D;
+    position: absolute;
+    line-height: 2;
+    top : 40px;
+    left: 25px;
+}
+.ex4{
+    position: absolute;
+    line-height: 2;
+    color: #ffff;
+    top: 40px;
+    left: 125px;
+}
+#ex5{
+    position: fixed;
+    top: 261px;
+    left: 1140px;
+}

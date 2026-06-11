@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    overflow: hidden;
+}
+header{
+    position: fixed;
+    left: 0;
+    top : 0;
+    z-index: 120;
+    /* z값 올려서 헤더 올림 */
+    width: 100%;
+    height: 100px;
+    background: #00000046;
+    color: #ffff;
+    text-align: center;
+    line-height: 100px;
+    overflow: hidden;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+}
+main{
+    position: absolute;
+    align-items: center;
+    background-image: url('img/카론 홈 화면 용.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.charon1{
+    position: absolute;
+    left: 71vw;
+    top: 9.5vw;
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
+    background-color: #4b43308d;
+    border-radius: 20px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.charon2{
+    position: absolute;
+    left: 72vw;
+    top: 18vw;
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
+    background-color: #36413378;
+    border-radius: 20px;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.charon3{
+    position: absolute;
+    left: 75vw;
+    top: 25vw;
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
+    background-color: #36413378;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.charon4{
+    position: absolute;
+    left: 71vw;
+    top: 32.5vw;
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
+    background-color: #36413378;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    border-radius: 20px;
+    margin-right: 2px;
+}
+a{
+    position: absolute;
+    top:40px;
+    font-size: 30px;
+    font-family: "Nanum Myeongjo", serif;
+    color: #B6B89D;
+    border: #35361c;
+    text-decoration: none;
+    left: 10px;
+}
+.charon1:hover{
+    background-color: #35361c6c;
+    transform: translatey(-2px);
+    transition-duration: 0.1s;
+}
+.charon2:hover{
+    background-color: #35361c6c;
+    transform: translatey(-2px);
+    transition-duration: 0.1s;
+}
+.charon3:hover{
+    background-color: #35361c6c;
+    transform: translatey(-2px);
+    transition-duration: 0.1s;
+}
+.charon4:hover{
+    background-color: #35361c6c;
+    transform: translatey(-2px);
+    transition-duration: 0.1s;
+}
+#charonpv{
+    position: fixed;
+    left: 39.1vw;
+    top: 9vw;
+    border-radius: 3px;
+    border: 3px solid #00000067;
+    transform: rotate(1deg);
+}

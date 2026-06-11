@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    overflow: hidden;
+}
+header{
+    width: 100vw;
+    background: #00000046;
+    color: #ffff;
+    text-align: center;
+    line-height: 100px;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+}
+input {
+    width: 25vw;
+}
+body{
+    align-items: center;
+    background-image: url('img/머나먼 길.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.homecon{
+    height: 100%;
+}
+.loginem{
+    height: 100%;
+}
+.login{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 400px;
+    font-size: 30px;
+}
+body,html{
+    height: 100%;
+}
+fieldset{
+    border-radius: 50px;
+}
+form{
+    margin: 20vw;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 47px;
+}
+#charon{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+label{
+    margin-top: 3vw;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 25vw;
+    height: 5vw;
+    color: #ffff;
+    font-size: 3vw;
+    outline: none;
+    border-radius: 10px;
+    align-items: center;   
+}
+button {
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: #676666;
+    color: #000000;
+}
