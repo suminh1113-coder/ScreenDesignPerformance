@@ -36,18 +36,8 @@ body{
     background-color: #00000046;
     top:100px;
     margin-left: 20px;
-    width: 940px;
-    height: 630px;
-}
-.nomal1{
-    border-radius: 10px;
-    margin-top: 20px;
-    position: absolute;
-    background-color: #00000046;
-    top:100px;
-    margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    width: 730px;
+    height: 500px;
 }
 .nomal2{
     border-radius: 10px;
@@ -55,37 +45,44 @@ body{
     position: absolute;
     background-color: #00000046;
     top:100px;
-    margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    margin-left: 780px;
+    width: 730px;
+    height: 500px;
 }
 .nomal3{
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 680px;
     position: absolute;
     background-color: #00000046;
-    top:100px;
     margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    width: 1490px;
+    height: 750px;
+    margin-bottom: 400px;
 }
-.nomal4{
-    border-radius: 10px;
-    margin-top: 20px;
+.ex1{
     position: absolute;
-    background-color: #00000046;
-    top:100px;
-    margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    top: 5px;
+    left: 270px;
+    line-height: 2;
+    color: #B6B89D;
 }
-.nomal5{
-    border-radius: 10px;
-    margin-top: 20px;
+.ex2{
     position: absolute;
-    background-color: #00000046;
-    top:100px;
-    margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    top: 5px;
+    left: 280px;
+    line-height: 2;
+    color: #B6B89D;
+}
+.ex3{
+    position: absolute;
+    top: 10px;
+    left: 620px;
+    line-height: 2;
+    color: #B6B89D;
+}
+#book{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: #000000 solid 2px;
 }

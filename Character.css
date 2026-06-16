@@ -3,23 +3,26 @@
     font-family: "Nanum Myeongjo", serif;
     overflow: auto;
 }
+::-webkit-scrollbar {
+    display: none;
+}
+/* 스크롤바 지우기 */
 header{
-    position: fixed;
+    position: absolute;
     left: 0;
     top : 0;
     z-index: 120;
     /* z값 올려서 헤더 올림 */
     width: 100%;
     height: 100px;
-    background: #00000095;
+    background: #00000096;
     color: #B6B89D;
     text-align: center;
     line-height: 100px;
     font-size: 20px;
 }
-main{
-    position: absolute;
-    align-items: center;
+body{
+    position:absolute;
     background-color: #303930;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +45,7 @@ main{
 .nomal1{
     border-radius: 10px;
     margin-top: 20px;
-    position: fixed;
+    position: absolute;
     background-color: #00000046;
     top:100px;
     margin-left: 20px;
@@ -50,8 +53,8 @@ main{
     height: 630px;
 }
 #tong1, #tong2{
-    position: fixed;
-    top: 590px;
+    position: absolute;
+    top: 470px;
     margin-left: 120px;
     color: #B6B89D;
     display: flex;
@@ -59,8 +62,8 @@ main{
     flex-direction: row;
 }
 #tong2{
-    position: fixed;
-    top: 590px;
+    position: absolute;
+    top: 470px;
     margin-left: 340px;
 }
 .ex1{
@@ -100,7 +103,7 @@ main{
 .nomal2{
     border-radius: 10px;
     margin-top: 20px;
-    position: fixed;
+    position: absolute;
     background-color: #00000046;
     top:100px;
     margin-left: 1000px;
@@ -108,26 +111,258 @@ main{
     height: 630px;
 }
 #ex3{
+    margin-top: 10px;
     color: #B6B89D;
     position: absolute;
-    left: 140px;
+    left: 150px;
 }
 .magicer{
     color: #B6B89D;
     position: absolute;
     line-height: 2;
-    top : 40px;
+    top : 70px;
     left: 25px;
 }
 .ex4{
     position: absolute;
     line-height: 2;
     color: #ffff;
-    top: 40px;
-    left: 125px;
+    top: 70px;
+    left: 138px;
+    height: 500px;
+    width: 370px;
 }
 #ex5{
-    position: fixed;
-    top: 261px;
-    left: 1140px;
+    position: absolute;
+    top:102px;
+}
+#ex6{
+    position: absolute;
+    top:183px;
+}
+#ex7{
+    position: absolute;
+    top: 230px;
+}
+
+.nomal3{
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute;
+    background-color: #00000046;
+    top:780px;
+    margin-left: 20px;
+    width: 1490px;
+    height: 700px;
+    text-align: center;
+    color: #B6B89D;
+}
+#gift1, #gift2, #gift3{
+    margin: 40px;
+    border-radius: 10px;
+}
+#mon1, #mon2, #mon3{
+    position: absolute;
+    top:290px;
+    left: 200px;
+    color: #00000091;
+}
+#mon2{
+    position: absolute;
+    left: 640px;
+}
+#mon3{
+    position: absolute;
+    left: 1010px;
+}
+#s1{
+    position: absolute;
+    text-align: left;
+    top:340px;
+    left: 210px;
+    font-size: larger;
+    color: #00000091;
+}
+#s2{
+    position: absolute;
+    text-align: left;
+    top:340px;
+    left:612px;
+    font-size: larger;
+    color: #00000091;
+    height: 240px;
+}
+#s3{
+    position: absolute;
+    text-align: left;
+    top:340px;
+    left:1020px;
+    font-size: larger;
+    color: #00000091;
+    height: 240px;
+}
+.nomal4{
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute;
+    background-color: #00000046;
+    top:1540px;
+    margin-left: 20px;
+    width: 1490px;
+    height: 800px;
+    text-align: center;
+    color: #B6B89D;
+}
+#mon4, #mon5, #mon6{
+    position: absolute;
+    top:140px;
+    left: 750px;
+    color: #00000091;
+    font-size: xx-large;
+}
+#mon4{
+    position: absolute;
+    top:140px;
+}
+#mon5{
+    position: absolute;
+    top: 890px;
+}
+#mon6{
+    position: absolute;
+    top: 1660px;
+}
+#gift4, #gift5, #gift6{
+    margin: 40px;
+    border-radius: 10px;
+}
+#s4{
+    position: absolute;
+    text-align: left;
+    top:200px;
+    width: 550px;
+    height: 500px;
+    left: 750px;
+    font-size: larger;
+    color: #00000091;
+}
+#s5{
+    position: absolute;
+    text-align: left;
+    top:950px;
+    left:760px;
+    width: 550px;
+    font-size: larger;
+    color: #00000091;
+    height: 500px;
+}
+#s6{
+    position: absolute;
+    text-align: left;
+    top:1720px;
+    left:750px;
+    width: 550px;
+    font-size: larger;
+    color: #00000091;
+    height: 500px;
+}
+.nomal8{
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute;
+    background-color: #00000046;
+    top:2400px;
+    margin-left: 20px;
+    width: 1490px;
+    height: 1400px;
+}
+#ex8{
+    color: #B6B89D;
+    position: absolute;
+    left: 135px;
+    top:360px
+}
+#Xtreme{
+    border: #000000 solid 2px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    border-radius: 10px;
+}
+#title{
+    color: #B6B89D;
+    position: absolute;
+    left: 630px;
+    border-radius: 10px;
+}
+#mata{
+    border: #000000 solid 2px;
+    position: absolute;
+    top: 100px;
+    left: 510px;
+    border-radius: 10px;
+}
+#sound{
+    border: #000000 solid 2px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    border-radius: 10px;
+}
+#nohead{
+    border: #000000 solid 2px;
+    position: absolute;
+    top: 450px;
+    left: 80px;
+    border-radius: 10px;
+}
+#hal{
+    border: #000000 solid 2px;
+    position: absolute;
+    top: 450px;
+    left: 565px;
+    border-radius: 10px;
+}
+#skin{
+    border: #000000 solid 2px;
+    position: absolute;
+    top: 450px;
+    left: 1050px;
+    border-radius: 10px;
+}
+#ex9{
+    color: #B6B89D;
+    position: absolute;
+    left: 610px;
+    top:360px
+}
+#ex10{
+    color: #B6B89D;
+    position: absolute;
+    left: 1150px;
+    top:360px
+}
+#ex11{
+    color: #B6B89D;
+    position: absolute;
+    left: 177px;
+    top:1200px
+}
+#ex12{
+    color: #B6B89D;
+    position: absolute;
+    left: 660px;
+    top:1200px
+}
+#ex13{
+    color: #B6B89D;
+    position: absolute;
+    left: 1100px;
+    top:1200px
+}
+#nohead, #hal, #skin{
+    top: 500px;
+}
+a:hover{
+    opacity: 0.6;
 }
