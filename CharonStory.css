@@ -13,9 +13,14 @@ header{
     font-family: "Nanum Myeongjo", serif;
     font-size: 20px;
     color: #B6B89D;
-    
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
 }
 
+#name{
+    margin-left: 590px;
+}
 div{
     width: 500px;
     height: 400px;
@@ -36,6 +41,9 @@ main{
 }
 img{
     border: #ffff solid 2px;
+}
+.hombu{
+    border: none;
 }
 #storyep11{
     position: absolute;

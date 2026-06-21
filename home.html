@@ -25,5 +25,25 @@
         </div>
         <a href="https://youtu.be/gu8Afmd3P_4?si=Y1vWU4DVmb7o98Fe"><img src="/img/카론 케릭터 PV.png" width="252px" height="149.5px" id="charonpv"></a>
             <!--카론 캐릭터 PV 영상임-->
+            <div id="goodss">
+                <a href="https://kr.reverse1999.store/products/64-in-black-and-white-garment-shikishi-boards-%E5%89%AF%E6%9C%AC"><img src="/img/굿즈샵.png" width="100px" height="100px" class="goods"></a>
+            </div>
+            <img src="/img/카론 스킨 일러.png" width="170px" id="skin">
+            <a href="https://reverse1999.haoplay.com/"><img src="/img/리버스.png" width="100px" height="100px" class="reverse1999"></a>
+            <button onclick="player()" id="playbu"><img src="/img/미스라디오.png" width="150px"><h2>BGM</h2></button>
+            <script>
+                const BGM = new Audio('/music/EP.mp3');
+                let isplay = false;
+                function player(){
+                    if(isplay == false){
+                        BGM.loop = true;
+                        BGM.play();
+                        isplay = true;
+                    }else{
+                        BGM.pause();
+                        isplay = false;
+                    }
+                }
+            </script>
 </body>
 </html>

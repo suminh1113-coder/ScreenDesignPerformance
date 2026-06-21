@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-    <h1>카론 세팅 가이드</h1>
+        <a href="home.html" class="charon1"><img src="/img/홈 아이콘.png" alt= "홈" width="90px" class="hombu"></a>
+        <h1 id="name">카론 세팅 가이드</h1>
     </header>
     <div class="nomal1">
         <h1 id="ex1">마도술</h1>
@@ -87,14 +88,32 @@
         <h1 id="ex4">덱 추천</h1>
         <div class="search">
             <input type="search" id="sear" aria-label="검색">
-            <button type="submit" id="sea"><img src="/img/검색.png" alt="검색" width="60px"></button>
+            <button id="sea" onclick="change4()"><img src="/img/검색.png" alt="검색" width="50px"></button>
         </div>
-        
-        <textarea row="100" cols="40" aria-label="최대 300자"  id="mamo">
+        <div id="result1"></div>
+        <textarea maxlength="300" row="100" cols="30" placeholder="덱 메모장 최대 300자"  id="mamo">
         </textarea>
     </div>
     <div class="nomal5">
         <h1 id="ex5">육성 계산기</h1>
-    </div>
+        <div id="result2"></div>
+        <button onclick="change1()" id="chal1">1 통찰</button>
+        <button onclick="change2()" id="chal2">2 통찰</button>
+        <button onclick="change3()" id="chal3">3 통찰</button>
+        </div>
+    <script>
+        function change1(){
+            document.getElementById('result2').style.backgroundImage = "url('/img/재료1.png')";
+        }
+        function change2(){
+            document.getElementById('result2').style.backgroundImage = "url('/img/재료2.png')";
+        }
+        function change3(){
+            document.getElementById('result2').style.backgroundImage = "url('/img/재료3.png')";
+        }
+        function change4(){
+            document.getElementById('result1').style.backgroundImage = "url('/img/전력.png')";
+        }
+    </script>
 </body>
 </html>

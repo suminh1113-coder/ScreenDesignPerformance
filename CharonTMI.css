@@ -20,6 +20,12 @@ header{
     text-align: center;
     line-height: 100px;
     font-size: 20px;
+    display: flex;
+    /* 가로로 정렬 */
+    flex-direction: row;
+}
+#name{
+    margin-left: 590px;
 }
 body{
     position:absolute;

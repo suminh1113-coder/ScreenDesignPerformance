@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     overflow: hidden;
+    font-family: "Nanum Myeongjo", serif;
 }
 header{
     position: fixed;
@@ -11,7 +12,7 @@ header{
     width: 100%;
     height: 100px;
     background: #00000046;
-    color: #ffff;
+    color: #B6B89D;
     text-align: center;
     line-height: 100px;
     overflow: hidden;
@@ -27,6 +28,16 @@ main{
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+.charon1,.charon2,.charon3,.charon4{
+    position: absolute;
+    top:40px;
+    font-size: 30px;
+    font-family: "Nanum Myeongjo", serif;
+    color: #B6B89D;
+    border: #35361c;
+    text-decoration: none;
+    left: 10px;
 }
 .charon1{
     position: absolute;
@@ -88,16 +99,7 @@ img{
     border-radius: 20px;
     margin-right: 2px;
 }
-a{
-    position: absolute;
-    top:40px;
-    font-size: 30px;
-    font-family: "Nanum Myeongjo", serif;
-    color: #B6B89D;
-    border: #35361c;
-    text-decoration: none;
-    left: 10px;
-}
+
 .charon1:hover{
     background-color: #35361c6c;
     transform: translatey(-2px);
@@ -137,5 +139,36 @@ a{
     opacity: 0.9;
 }
 #charonpv:hover{
+    opacity: 0.8;
+}
+#playbu{
+    background: none;
+    border: none;
+    position: absolute;
+    left: 41.5vw;
+    top: 22vw;
+    color: #d6d8b2;
+}
+#playbu:hover{
+    color: #000000;
+}
+.goods{
+    position: absolute;
+    left: 57.6vw;
+    top: 36vw;
+}
+.reverse1999{
+    position: absolute;
+    left: 41.5vw;
+    top: 37vw;
+}
+#skin{
+    position: absolute;
+    left: 57vw;
+    top: 10vw;
+    transform: rotate(1deg);
+    border-radius: 0px;
+}
+.reverse1999:hover, .goods:hover, #playbu:hover{
     opacity: 0.8;
 }
