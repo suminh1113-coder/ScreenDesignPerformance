@@ -3,6 +3,12 @@
     font-family: "Nanum Myeongjo", serif;
     overflow: auto;
 }
+div{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.449);
+}
+img{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.449);
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -20,6 +26,10 @@ header{
     text-align: center;
     line-height: 100px;
     font-size: 20px;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+h1{
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 body{
     position:absolute;
@@ -51,6 +61,7 @@ body{
     margin-left: 20px;
     width: 940px;
     height: 630px;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 #tong1, #tong2{
     position: absolute;
@@ -60,6 +71,7 @@ body{
     display: flex;
     /* 가로로 정렬 */
     flex-direction: row;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 #tong2{
     position: absolute;
@@ -72,6 +84,7 @@ body{
     left: 500px;
     line-height: 2;
     color: #B6B89D;
+    box-shadow: none;
 }
 .ex2{
     position: absolute;
@@ -79,26 +92,31 @@ body{
     line-height: 2;
     color: #ffff;
     top: 25px;
+    box-shadow: none;
 }
 #ghost{
     position: absolute;
     left: 700px;
     top: 35px;
+    box-shadow: none;
 }
 #sign{
     position: absolute;
     top: 270px;
     left: 500px;
+    box-shadow: none;
 }
 #headdem{
     position: absolute;
     top: 80px;
     left: 780px;
+    box-shadow: none;
 }
 #UDIMO{
     position: absolute;
     top: 420px;
     left: 530px;
+    box-shadow: none;
 }
 .nomal2{
     border-radius: 10px;
@@ -109,6 +127,7 @@ body{
     margin-left: 1000px;
     width: 510px;
     height: 630px;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 #ex3{
     margin-top: 10px;
@@ -122,6 +141,7 @@ body{
     line-height: 2;
     top : 70px;
     left: 25px;
+    box-shadow: none;
 }
 .ex4{
     position: absolute;
@@ -131,6 +151,7 @@ body{
     left: 138px;
     height: 500px;
     width: 370px;
+    box-shadow: none;
 }
 #ex5{
     position: absolute;
@@ -219,6 +240,7 @@ body{
     left: 750px;
     color: #00000091;
     font-size: xx-large;
+    text-shadow: none;
 }
 #mon4{
     position: absolute;
@@ -333,13 +355,13 @@ body{
 #ex9{
     color: #B6B89D;
     position: absolute;
-    left: 610px;
+    left: 620px;
     top:360px
 }
 #ex10{
     color: #B6B89D;
     position: absolute;
-    left: 1150px;
+    left: 1160px;
     top:360px
 }
 #ex11{

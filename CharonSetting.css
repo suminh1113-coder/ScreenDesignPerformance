@@ -2,11 +2,16 @@
     margin: 0px;
     font-family: "Nanum Myeongjo", serif;
     overflow: auto;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 ::-webkit-scrollbar {
     display: none;
 }
+div{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.642);
+}
 /* 스크롤바 지우기 */
+
 header{
     position: absolute;
     left: 0;
@@ -36,56 +41,219 @@ body{
     background-color: #00000046;
     top:100px;
     margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    width: 1485px;
+    height: 930px;
 }
-.nomal1{
+#ex1{
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    line-height: 2;
+    color: #B6B89D;
+}
+#sk1, #sk2, #sk3{
+    position: absolute;
+    top: 65px;
+    border-radius: 10px;
+    border: #ffff solid 3px;
+    margin-left: 120px;
+}
+#skill1, #skill2, #skill3{
     border-radius: 10px;
     margin-top: 20px;
     position: absolute;
     background-color: #00000046;
     top:100px;
     margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    width: 450px;
+    height: 700px;
+    left: 10px;
+}
+#skill2{
+    left: 495px;
+}
+#skill3{
+    left: 980px;
+}
+.mon{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    line-height: 2;
+    color: #B6B89D;
+}
+#te2{
+    left: 140px;
+}
+#te3{
+    left: 100px;
+}
+.typee{
+    position: absolute;
+    top: 335px;
+    left: 145px;
+    background-color: #ffffffb9;
+    border-radius: 5px;
+    color: #0000009a;
+    text-shadow: none;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.skk{
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    height: 300px;
+    color: #ffffffe3;
+}
+.sul{
+    color: #ffffff6a;
 }
 .nomal2{
     border-radius: 10px;
     margin-top: 20px;
     position: absolute;
     background-color: #00000046;
-    top:100px;
+    top:1070px;
     margin-left: 20px;
-    width: 940px;
+    width: 720px;
     height: 630px;
+}
+#mu1,#mu2{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+#mu3,#mu4{
+    position: absolute;
+    top:350px;
+    left: 70px;
+}
+#mu2,#mu4{
+    left: 430px;
+}
+#sss,#ss,#s,#a{
+    color: #ffff;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+#ss{
+    left: 420px;
+}
+#s, #a{
+    top: 530px;
+    left: 60px;
+}
+#a{
+    left: 410px;
+}
+#ex2{
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    line-height: 2;
+    color: #B6B89D;
 }
 .nomal3{
     border-radius: 10px;
     margin-top: 20px;
     position: absolute;
     background-color: #00000046;
-    top:100px;
-    margin-left: 20px;
-    width: 940px;
+    top:1070px;
+    margin-left: 785px;
+    width: 720px;
     height: 630px;
+}
+#ex3{
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    line-height: 2;
+    color: #B6B89D;
+}
+#go1,#go2,#go3{
+    color: #ffff;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+#go3{
+    left: 420px;
+}
+#go1{
+    top: 380px;
+    left: 250px;
+}
+#co2,#co3{
+    position: absolute;
+    top: 320px;
+    color: #ffff;
+    left: 130px;
+}
+#co3{
+    left: 465px;
+}
+#co1{
+    position: absolute;
+    color: #ffff;
+    top: 530px;
+    left: 261px;
 }
 .nomal4{
     border-radius: 10px;
     margin-top: 20px;
     position: absolute;
     background-color: #00000046;
-    top:100px;
+    top:1740px;
     margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    width: 1485px;
+    height: 830px;
+}
+#mamo{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    height: 650px;
+    text-shadow: none;
+    font-size: large;
+}
+#sear{
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    width: 800px;
+    height: 70px;
+    border-radius: 10px;
+}
+#sea{
+    position: absolute;
+    top: 110px;
+    left: 80px;
+}
+#ex4{
+    position: absolute;
+    top: 10px;
+    left: 690px;
+    line-height: 2;
+    color: #B6B89D;
 }
 .nomal5{
     border-radius: 10px;
     margin-top: 20px;
     position: absolute;
     background-color: #00000046;
-    top:100px;
+    top:2630px;
     margin-left: 20px;
-    width: 940px;
-    height: 630px;
+    width: 1485px;
+    height: 830px;
+}
+#ex5{
+    position: absolute;
+    top: 10px;
+    left: 660px;
+    line-height: 2;
+    color: #B6B89D;
 }

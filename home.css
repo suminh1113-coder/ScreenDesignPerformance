@@ -17,6 +17,7 @@ header{
     overflow: hidden;
     font-family: "Nanum Myeongjo", serif;
     font-size: 20px;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 main{
     position: absolute;
@@ -101,21 +102,29 @@ a{
     background-color: #35361c6c;
     transform: translatey(-2px);
     transition-duration: 0.1s;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.528);
 }
 .charon2:hover{
     background-color: #35361c6c;
     transform: translatey(-2px);
     transition-duration: 0.1s;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.528);
 }
 .charon3:hover{
     background-color: #35361c6c;
     transform: translatey(-2px);
     transition-duration: 0.1s;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.528);
 }
 .charon4:hover{
     background-color: #35361c6c;
     transform: translatey(-2px);
     transition-duration: 0.1s;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.528);
 }
 #charonpv{
     position: fixed;

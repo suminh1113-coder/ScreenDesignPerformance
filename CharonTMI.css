@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     font-family: "Nanum Myeongjo", serif;
-    overflow: auto;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 ::-webkit-scrollbar {
     display: none;
@@ -85,4 +85,25 @@ body{
     top: 100px;
     left: 100px;
     border: #000000 solid 2px;
+    border-radius: 5px;
+}
+ul{
+    list-style-position: outside;
+}
+#TMI{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 650px;
+    color: #ffff;
+    margin-left: 20px;
+    line-height: 27px;
+}
+.bookTMI{
+    overflow: auto;
+    color: #ffff;
+    position: absolute;
+    left: 550px;
+    width: 850px;
+    top: 100px;
 }
